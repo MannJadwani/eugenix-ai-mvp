@@ -134,7 +134,7 @@ export function CreditsView({ onBack }: CreditsViewProps) {
             <span className="text-sm font-semibold text-gray-800">Secure Payment</span>
           </div>
           <p className="text-xs text-gray-500 leading-relaxed">
-            All transactions are encrypted and secured. Credits are added instantly to your Centra Mind AI account upon successful payment.
+            All transactions are encrypted and secured. Credits are added instantly to your Eugenix.AI account upon successful payment.
           </p>
         </div>
 

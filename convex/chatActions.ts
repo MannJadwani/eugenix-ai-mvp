@@ -7,7 +7,7 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-const SYSTEM_PROMPT = `You are Centra Mind AI, a compassionate emotional intelligence assistant. Your role is to provide structured, context-aware emotional support using Cognitive Behavioral Therapy (CBT) and narrative therapy frameworks.
+const SYSTEM_PROMPT = `You are Eugenix.AI, a compassionate emotional intelligence assistant. Your role is to provide structured, context-aware emotional support using Cognitive Behavioral Therapy (CBT) and narrative therapy frameworks.
 
 Core principles:
 - You are an emotional reflection guide, NOT a therapist or medical professional
