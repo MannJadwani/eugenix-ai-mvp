@@ -99,7 +99,7 @@ export function ChatView({ profile }: { profile: Profile }) {
           <div className="hidden md:block w-9" />
 
           <div className="text-center">
-            <h1 className="text-base font-bold text-gray-800">Eugenix.AI</h1>
+            <h1 className="text-base font-bold text-gray-800">Centramind</h1>
             <p className="text-[10px] font-semibold tracking-widest" style={{ color: "#88CCC5" }}>ALWAYS HERE</p>
           </div>
 
@@ -401,7 +401,7 @@ function MessageBubble({ role, content }: { role: "user" | "assistant"; content:
       )}
       <div className="max-w-[78%] md:max-w-[65%] lg:max-w-[55%]">
         <p className={`text-[11px] font-medium mb-1 ${isUser ? "text-right" : "text-left"}`} style={{ color: "#A0AEC0" }}>
-          {isUser ? "You" : "Eugenix.AI"}
+          {isUser ? "You" : "Centramind"}
         </p>
         <div
           className="px-4 py-3 rounded-2xl text-sm leading-relaxed whitespace-pre-wrap"
@@ -443,7 +443,7 @@ function TypingIndicator() {
         </svg>
       </div>
       <div className="max-w-[78%]">
-        <p className="text-[11px] font-medium mb-1" style={{ color: "#A0AEC0" }}>Eugenix.AI</p>
+        <p className="text-[11px] font-medium mb-1" style={{ color: "#A0AEC0" }}>Centramind</p>
         <div className="px-4 py-3 rounded-2xl" style={{ background: "linear-gradient(135deg, #D4F0ED, #E8F2F0)", borderBottomLeftRadius: "6px" }}>
           <div className="flex gap-1 items-center h-4">
             {[0, 1, 2].map((i) => (

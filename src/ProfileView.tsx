@@ -142,7 +142,7 @@ export function ProfileView({ onNavigate }: ProfileViewProps) {
 
         {/* Footer */}
         <p className="text-center text-[11px] text-gray-300 mt-6">
-          Eugenix.AI v1.0 - Your safe space
+          Centramind v1.0 - Your safe space
         </p>
       </div>
     </div>

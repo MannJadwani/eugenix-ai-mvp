@@ -90,7 +90,7 @@ export function SignInForm() {
             </svg>
           </div>
           <h1 className="text-3xl font-bold text-gray-800 tracking-tight mb-2">
-            Eugenix.AI
+            Centramind
           </h1>
           <div className="flex items-center gap-2">
             <span className="h-[1px] w-4 bg-teal-300" />

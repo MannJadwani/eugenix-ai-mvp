@@ -154,7 +154,7 @@ function DesktopSidebar({ activeTab, onTabChange, isAdmin, credits }: {
           </svg>
         </div>
         <div>
-          <h1 className="text-sm font-bold text-gray-800">Eugenix.AI</h1>
+          <h1 className="text-sm font-bold text-gray-800">Centramind</h1>
           <p className="text-[9px] font-semibold tracking-widest" style={{ color: "#88CCC5" }}>ALWAYS HERE</p>
         </div>
       </div>
