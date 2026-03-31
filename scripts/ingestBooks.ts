@@ -1,5 +1,5 @@
 /**
- * Book Ingestion Script for Eugenix.AI RAG System
+ * Book Ingestion Script for Centra Mind AI RAG System
  *
  * Extracts text from PDF books, chunks them, generates embeddings via OpenAI,
  * and stores them in the Convex vector database for RAG retrieval.
@@ -349,7 +349,7 @@ async function main() {
   const force = process.argv.includes("--force");
 
   console.log("╔══════════════════════════════════════════════════════════╗");
-  console.log("║         Eugenix.AI — Book Ingestion Pipeline            ║");
+  console.log("║      Centra Mind AI — Book Ingestion Pipeline           ║");
   console.log("║              RAG Vector Database Setup                   ║");
   console.log("╚══════════════════════════════════════════════════════════╝");
   console.log(`\nConvex URL: ${CONVEX_URL}`);

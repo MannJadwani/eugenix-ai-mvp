@@ -3,7 +3,7 @@
   "configVersion": 0,
   "workspaces": {
     "": {
-      "name": "flex-template",
+      "name": "centra-mind-ai",
       "dependencies": {
         "@convex-dev/auth": "^0.0.80",
         "clsx": "^2.1.1",
